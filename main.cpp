@@ -4,11 +4,10 @@
 const std::string objPath = "C:/Repos/myTinyRenderer/obj/diablo3_pose/diablo3_pose.obj";
 
 int main(int argc, char** argv) {
-    constexpr int width  = 1920;
-    constexpr int height = 1920;
+    std::shared_ptr<Model> model = std::make_shared<Model>(objPath);
+    std::shared_ptr<Renderer> renderer = std::make_shared<Renderer>(Renderer());
 
-    Model model(objPath);
-    model.DrawModelToFile(width, height);
+    model->Draw(renderer);
 
     return 0;
 }
