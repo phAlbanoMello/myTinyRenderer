@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Repos/myTinyRenderer/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

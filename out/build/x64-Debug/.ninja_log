@@ -1,0 +1,4 @@
+# ninja log v6
+5	853	8010195602124573	CMakeFiles/tinyrenderer.dir/main.cpp.obj	1811bada6157c8ae
+12	856	8010195602194623	CMakeFiles/tinyrenderer.dir/tgaimage.cpp.obj	5d68324a2e48bbb
+856	1084	8010195610646158	tinyrenderer.exe	5b30ccb1605e36a8

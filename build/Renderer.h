@@ -12,8 +12,8 @@ namespace Colors {
 
 class Renderer {
 private:
-    const int mWidth = 1920;
-    const int mHeight = 1920;
+    const int mWidth = 128;
+    const int mHeight = 128;
 
     TGAImage mFramebuffer;
 public:
