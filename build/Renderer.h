@@ -23,6 +23,8 @@ public:
     void DrawLine(int ax, int ay, int bx, int by, const TGAColor color);
     void DrawTriangle(int ax, int ay, int bx, int by, int cx, int cy, TGAColor color);
 
+    void DrawBoundingBox(int ax, int ay, int bx, int by, int cx, int cy, TGAColor color);
+
     void DrawTriangleFilled(int ax, int ay, int bx, int by, int cx, int cy, TGAColor color);
 
     void WriteFramebufferToFile();
