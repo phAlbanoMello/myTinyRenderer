@@ -9,9 +9,14 @@ int main(int argc, char** argv) {
 
     //model->Draw(renderer);
 
-    renderer->DrawTriangle(7, 45, 35, 100, 45, 60, Colors::red);
-    renderer->DrawTriangle(120, 35, 90, 5, 45, 110, Colors::white);
-    renderer->DrawTriangle(115, 83, 80, 90, 85, 120, Colors::blue);
+    renderer->DrawTriangleFilled(7, 60, 35, 100, 45, 60, Colors::red);
+    renderer->DrawTriangleFilled(120, 35, 90, 5, 45, 110, Colors::white);
+    renderer->DrawTriangleFilled(115, 83, 80, 90, 85, 120, Colors::blue);
+
+   /* renderer->DrawTriangle(7, 60, 35, 100, 45, 60, Colors::red);
+    renderer->DrawTriangle(120, 35, 90, 0, 45, 110, Colors::white);
+    renderer->DrawTriangle(115, 83, 80, 90, 85, 120, Colors::blue);*/
+
     renderer->WriteFramebufferToFile();
 
     return 0;

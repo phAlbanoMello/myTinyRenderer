@@ -8,3 +8,7 @@ struct Face {
 	int a, b, c;
 };
 
+struct Vector2D {
+	int x, y;
+};
+

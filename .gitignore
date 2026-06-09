@@ -1,1 +1,6 @@
 framebuffer.tga
+build/.vs
+build/Debug
+build/Release
+build/tinyrenderer.dir
+build/x64
